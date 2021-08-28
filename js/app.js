@@ -73,8 +73,8 @@ form.addEventListener("submit", function (e) {
         res = await fetch(url);
         if (!res.ok) {
           renderError(
-            `Country not found (${res.status})❌ please write leggal country name 😻 \n  Refresh website to write
-            👐`
+            `Country not found (${res.status})❌. \n please write leggal country name 😻. \n  Refresh website to write
+            👐.`
           );
           form.style.top = "-100%";
           countriesContainer.remove();

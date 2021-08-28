@@ -1,3 +1,9 @@
+@media (max-width: 750px) {
+  .errorMessage {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 650px) {
   h2 {
     font-size: 25px;
@@ -34,6 +40,10 @@
     font-size: 20px;
     text-align: center;
   }
+  .errorMessage {
+    max-width: 400px;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 440px) {
@@ -65,5 +75,12 @@
   .textInput input,
   button {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .errorMessage {
+    max-width: 300px;
+    font-size: 17px;
   }
 }
