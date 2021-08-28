@@ -1,138 +1,68 @@
-@media (max-width: 1295px) {
-  .country {
-    max-width: 1050px;
-  }
-}
-@media (max-width: 1206px) {
-  .country {
-    max-width: 970px;
-  }
-}
-
-@media (max-width: 1126px) {
-  .country {
-    max-width: 890px;
-  }
-}
-
-@media (max-width: 1047px) {
-  .country {
-    max-width: 800px;
-  }
-}
-
-@media (max-width: 960px) {
-  .country {
-    max-width: 600px;
-  }
-  .neighbour {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 760px) {
-  .country {
-    max-width: 550px;
-  }
-  .neighbour {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 641px) {
-  .country {
-    max-width: 460px;
-  }
-  .neighbour {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 560px) {
-  .h3 {
-    font-size: 20px;
-  }
-  .neighbour {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 530px) {
-  .country {
-    max-width: 340px;
-  }
-  .h3 {
-    font-size: 18px;
-  }
-  .neighbour {
-    font-size: 11px;
-  }
-}
-
-@media (max-width: 457px) {
-  .country {
-    max-width: 200px;
-  }
-  .h3 {
-    font-size: 16px;
-  }
-  .neighbour {
-    font-size: 8px;
-  }
-}
-
-@media (max-width: 380px) {
-  .country {
-    max-width: 150px;
-  }
-}
-
-@media (max-width: 640px) {
-  .textInput input::placeholder {
+@media (max-width: 650px) {
+  h2 {
     font-size: 25px;
   }
+
+  .textInput input,
   button {
     font-size: 25px;
   }
 }
 
-@media (max-width: 600px) {
-  h2 {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 475px) {
-  h2 {
+@media (max-width: 650px) {
+  h1 {
     font-size: 25px;
   }
-  .textInput input::placeholder {
+
+  .country img {
+    max-width: 350px;
+  }
+  .h3 {
+    text-align: center;
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
     font-size: 20px;
   }
+  .country img {
+    max-width: 350px;
+  }
+  .h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .country img {
+    max-width: 250px;
+  }
+  .h3 {
+    font-size: 13.5px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media (max-width: 460px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  .textInput input,
   button {
     font-size: 20px;
   }
 }
-
-@media (max-width: 380px) {
+@media (max-width: 375px) {
   h2 {
-    font-size: 22px;
-  }
-  .textInput input::placeholder {
     font-size: 18px;
   }
-  button {
-    font-size: 18px;
-  }
-}
 
-@media (max-width: 350px) {
-  h2 {
-    font-size: 20px;
-  }
-  .textInput input::placeholder {
-    font-size: 16px;
-  }
+  .textInput input,
   button {
     font-size: 16px;
   }

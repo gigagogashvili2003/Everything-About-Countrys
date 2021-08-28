@@ -20,7 +20,7 @@ const renderCountry = function (data) {
   const html = `
 
   <section class="country">
-    <h1>${data.name} <span>(${data.nativeName})</span></h1>
+    <h1 class="first__title">${data.name} <span>(${data.nativeName})</span></h1>
     <img width="500" src="${data.flag}">
     <div class="data__info">
       <h3 class="h3">Native name: <span>${data.nativeName}</span></h3>
