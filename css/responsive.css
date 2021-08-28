@@ -69,7 +69,8 @@
 }
 @media (max-width: 375px) {
   h2 {
-    font-size: 18px;
+    max-width: 300px;
+    font-size: 17px;
   }
 
   .textInput input,
