@@ -10,6 +10,31 @@ body {
   min-height: 100vh;
 }
 
+h2 {
+  max-width: 850px;
+  width: 100%;
+  font-size: 40px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+  line-height: 50px;
+  padding-top: 80px;
+  transition: all 1.5s ease;
+  margin: 0 auto;
+}
+
+.h2Animation {
+  top: 0;
+}
+.h2Back {
+  top: -100%;
+}
+
 form {
   position: absolute;
   top: -100%;
@@ -19,7 +44,7 @@ form {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  transition: all 0.5s;
+  transition: all 0.8s ease;
 }
 
 .formClass {
@@ -39,16 +64,17 @@ form {
   font-size: 35px;
   padding: 30px 0;
   text-align: center;
+  color: grey;
 }
 
 button {
   width: 20%;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
   background-color: white;
-  outline: none;
   border: none;
   font-size: 35px;
   border-radius: 10px;
+  color: grey;
 }
 
 h1 {
@@ -61,17 +87,24 @@ h1 span {
 }
 
 .countries {
-  padding-top: 100px;
+  position: absolute;
+  top: 100px;
+  left: -1000%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 1s ease;
+}
+
+.countriesAnimation {
+  left: 0;
 }
 
 .country {
-  max-width: 100%;
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
   margin: 100px 0;
   background-color: #fff;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
@@ -82,6 +115,8 @@ h1 span {
 }
 
 .country img {
+  max-width: 600px;
+  width: 100%;
   border-radius: 0.7rem;
   border: 1px solid black;
 }
@@ -90,11 +125,23 @@ h1 span {
   margin-top: 30px;
 }
 
-.country h3 {
+.h3 {
   font-size: 25px;
   line-height: 45px;
 }
 
-.country h3 span {
+.country.h3 span {
   margin-left: 5px;
+}
+
+.errorMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+  color: grey;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
 }
